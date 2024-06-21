@@ -30,6 +30,15 @@ To share out the Repl, click "Invite" in the top right corner, toggle the "Priva
 
 ![Invite](docs/img/invite_candidate.png)
 
+When you click "Run" at the top of the screen, it will install the needed packages / libraries, and start the Django application.  Under the hood, Replit is configured to run `python manage.py runserver 0.0.0.0:3000` when you click run.  And port `3000` has been mapped to port `80` for the environment.
+
+![Run](docs/img/application_started.png)
+
+There is an option to get a shell in the bottom frame, from which you can run command like `python manage.py migrate`. 
+
+When done, click on the `django-replit-template` name in the top left, then click the three vertical dots, and then click "Delete".
+
+![Remove Environment](docs/img/remove_environment.png)
 
 ## For the Interviewee
 
