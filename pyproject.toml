@@ -1,0 +1,31 @@
+
+[tool]
+
+[tool.black]
+line-length = 110
+
+[tool.ruff]
+# https://beta.ruff.rs/docs/configuration/
+select = ['E', 'W', 'F', 'I', 'B', 'C4', 'ARG', 'SIM']
+ignore = ['W291', 'W292', 'W293']
+
+[tool.isort]
+profile = "black"
+line_length = 110
+force_single_line = true
+
+[tool.poetry]
+authors = ["National Services Group <no-reply@nsgmail.com>"]
+description = "Django Template for Replit"
+name = "django-replit-template"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+Django = "^4"
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry-core"]
