@@ -27,7 +27,8 @@ DEBUG = True
 
 # Replit option
 X_FRAME_OPTIONS = '*'
-ALLOWED_HOSTS = [ 'cb1a0754-b29b-4fef-a985-935aff18927d.id.repl.co']
+ALLOWED_HOSTS = [".replit.dev", ".replit.app"]
+CSRF_TRUSTED_ORIGINS = ["https://*.replit.dev", "https://*.replit.app"]
 
 
 
