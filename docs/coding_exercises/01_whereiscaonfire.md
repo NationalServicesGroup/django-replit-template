@@ -38,13 +38,11 @@ third-party libraries to make HTTP requests.
 
 Create views and templates to display the fire incident data. The main page
 should show a list of all active fire incidents, including their key details.
-Paginate if time permits
-
 
 3. **Data Modeling**
 
 Create a model via the ORM to log each time the page is viewed.  Have a separate
-page to view the page views.
+page to view the page views. Paginate if time permits.
 
 
 #### Resources
