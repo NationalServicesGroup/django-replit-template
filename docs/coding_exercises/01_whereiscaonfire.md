@@ -23,7 +23,7 @@ steps below to clone the repository into Repl.it:
 ### Exercise Requirements
 
 Your task is to replicate the functionality of [Where is California on Fire](http://whereiscaliforniaonfire.com/) using the data 
-from the [California Fire Incidents API](https://incidents.fire.ca.gov/umbraco/api/IncidentApi/List?inactive=true).
+from the [California Fire Incidents API](https://incidents.fire.ca.gov/umbraco/api/IncidentApi/List?inactive=false).
 Specifically, you need to:
 
 
@@ -49,4 +49,4 @@ page to view the page views. Paginate if time permits.
 
 - [Django Documentation](https://docs.djangoproject.com/en/4.2/)
 - [Repl.it Documentation](https://docs.replit.com/)
-- [California Fire Incidents API](https://incidents.fire.ca.gov/umbraco/api/IncidentApi/List?inactive=true)
+- [California Fire Incidents API](https://incidents.fire.ca.gov/umbraco/api/IncidentApi/List?inactive=false)
